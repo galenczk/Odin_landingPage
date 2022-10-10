@@ -70,6 +70,13 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+  border: solid 2px black;
+}
+
+.mainTwoImage{
+  max-width: 140px;
+  flex-grow: 0;
+  align-self: center;
 }
 
 .card {
@@ -80,10 +87,13 @@ ul {
   width: 140px;
 }
 .cardImage {
+  display: flex;
+  align-content: center;
   height: 140px;
   width: 100%;
   border: solid rgb(31, 129, 240) 2px;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .cardText {
